@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>LearnYourRudiments</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+            <link href="style.css" rel="stylesheet">
+                
+                <script src="tonejs/unmute-v013.js" data-add-button="true"></script>
+                <script src="tonejs/tone-v13.js"></script>
+                <script src="NexusUI.js"></script>
+                </head>
+    
+    
+    <body>
+        
+        <img src="images/info.png" id="infoIcon" alt="info icon" onclick= "blurEverythingExceptInfo()" />
+        <div id ="infoText"> Drum rudiments are the building blocks for almost every drum beat, pattern, fills and solos. <br> Practice these by playing along with the animation using your thumbs on the "Practice here" area. <br> <br> R - right hand; L - left hand. Underlined steps should be accented but feel free to try your own variations. <br><br> If you want to know how interesting these can sound on the drum kit, listen to each "Example", as it's played using only the respective rudiment</div>
+        
+        <div id = "nonInfo">
+            
+            <div id ="rudimentMenu"></div>
+            
+            <div id ="exampleButton"></div>
+            
+            <p id="rudimentNotation"> <b> <u>R</u> </b> l r l</p>
+            
+            <div id = "animationArea">
+                <div id = "drumsticksArea">
+                    <img src="images/DrumstickL.png" id="DrumstickL" alt = "Left drumstick" />
+                    <img src="images/DrumstickR.png" id="DrumstickR" alt = "Right drumstick"/>
+                </div>
+                
+                <div id = "snareDrumArea">
+                    <img src="images/snareDrum.png" id="snareDrumImage" alt = "Snare drum" />
+                </div>
+            </div>
+            
+            <div id = "metronomeIconArea">
+                <img id = "metronomeIconImage" src="images/metronomeL.png" alt = "Metronome" />
+            </div>
+            
+            
+            <div id ="BPMslider"><span id="BPM">30 BPM</span></div>
+            
+            <div id ="startButton"></div>
+            
+            <div id ="practiceArea">Practice here</div>
+            
+        </div>
+        
+        
+        <script src="JavaScript.js"></script>
+        <script src="RudimentLibrary.js"></script>
+        
+        
+    </body>
+</html>

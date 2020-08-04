@@ -1,0 +1,132 @@
+body{
+font-family : helvetica;
+display: grid;
+background-color:powderblue;
+}
+
+div {
+border-radius: 10px;
+}
+
+button#unmute-button{    /* styling for the top right corner unmute button */
+--unmute-size : 10vw;
+--unmute-margin: 2vw;
+margin-top: 2px;
+}
+
+img#infoIcon{
+position: fixed;
+width: 12vw;
+z-index: 1;
+margin: 0vw;
+}
+
+div#infoText{
+background-color : #14C0C8;
+border-radius: 30px;
+position : absolute;
+visibility : hidden;
+padding : 10px;
+word-wrap: break-word;
+text-align: justify;
+overflow: scroll;
+display : inline-block;
+margin-left: 10px;
+margin-right: 10px;
+top: 50%;
+transform: translateY(-50%);
+z-index: 1;
+}
+
+div#rudimentMenu{
+margin-bottom : 20px;
+border-radius: 10px;
+margin-left : auto;
+margin-right : auto;
+}
+
+div#exampleButton{
+margin-left : auto;
+margin-right : auto;
+text-align : center;
+}
+
+p#rudimentNotation {
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom : 10px;
+margin-left : auto;
+margin-right : auto;
+text-align : center;
+word-spacing: 30px;
+font-size: 12vw;
+margin-block-start: 2vh;
+}
+
+div#animationArea{
+text-align : center;
+}
+
+div#drumsticksArea{
+position : relative;
+top : 15vw;
+}
+
+img#DrumstickL{
+transform: rotate(-30deg);
+width : 49%;
+}
+
+img#DrumstickR{
+transform: rotate(50deg);
+width : 49%;
+}
+
+img#snareDrumImage{
+width : 50%;
+}
+
+
+div#metronomeIconArea{
+margin-bottom : 5px;
+text-align : center;
+}
+
+img#metronomeIconImage{
+    width: 15%;
+}
+
+
+div#BPMslider{
+margin-left : auto;
+margin-right : auto;
+text-align : center;
+}
+
+div#startButton{
+margin-left : auto;
+margin-right : auto;
+border-radius: 25px;
+margin-bottom : 20px;
+margin-top: 40px;
+}
+
+
+div#practiceArea{
+background-color : #14C0C8;
+border-radius: 50vh;
+margin-left:10vw;
+margin-right:10vw;
+height: 10vh;
+text-align: center;
+opacity: 60%;
+font-size: 6vw;
+line-height: 10vh;
+text-align: center;
+margin-top : 5vh;
+}
+
+
+select{
+text-align-last : center; /* centers the text inside the NEXUS UI selection menu for rudiments */
+}
+
